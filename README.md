@@ -1,5 +1,18 @@
 # F7Cordova2021
 
+## Stappen om tot deze versie van de app te komen :
+ * framework7-cli cordova installeren
+ ```
+ npm i framework7-cli -g
+ ```
+ * aanmaken van de app via de CLI
+ ```
+ framework7 create --ui
+ ```
+ * kies in de UI die verschijnt de gewenste opties. 
+   De opties staan hieronder beschreven.
+ * pas in `cordova\config.xml` lijn 30 aan, zodat de android-minSdkVersion 22 is in plaats van 21.
+
 ## Framework7 CLI Options
 
 Framework7 app created with following options:
